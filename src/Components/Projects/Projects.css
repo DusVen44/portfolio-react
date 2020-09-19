@@ -1,0 +1,12 @@
+.projects-container {
+    border: 2px solid white;
+    padding-top: 120px;
+    color: white;
+}
+
+.projects-title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    margin: 0;
+}

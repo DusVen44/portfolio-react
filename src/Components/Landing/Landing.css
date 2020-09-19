@@ -1,0 +1,50 @@
+.landing-page {
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-line-1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 20%;
+    font-size: 50px;
+    margin-bottom: 14px;
+}
+
+.landing-line-2 {
+    color: white;background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 20%;
+    font-size: 35px;
+}
+
+.landing-line-3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 20%;
+    font-size: 22px;
+    font-weight: 600;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .landing-line-1 {
+        font-size: 75px;
+    }
+
+    .landing-line-2 {
+        font-size: 52px;
+    }
+
+    .landing-line-3 {
+        font-size: 33px;
+    }
+}
