@@ -1,0 +1,137 @@
+.each-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.title-description-tech-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    width: fit-content;
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow: 0px 0px 4px #A0E7FB;
+}
+
+.description {
+    font-family: 'Montserrat';
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px -1px 1px rgb(0, 0, 0);
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0);
+}
+
+.tech-and-buttons {
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 25%;
+    display: flex;
+}
+
+.project-tech {
+    width: 50%;
+    align-self: start;
+    text-align: center;
+}
+
+.tech-box {
+    width: 70%;
+    text-shadow: 1px -1px 1px rgb(0, 0, 0);
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 0px 4px 4px #A0E7FB;
+    border-radius: 35%;
+    margin: 8px;
+}
+
+.link-buttons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 80%;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 4px #000000;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+.screenshot {
+    text-align: center;
+}
+
+.sitescreenshot {
+    width: 85%;
+    margin-top: 15px;
+    box-shadow: 0px 0px 4px 4px #ffffff;
+}
+
+@media screen and (min-width: 700px) {
+    .each-project-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title-description-tech-links {
+        width: 100%;
+        align-self: start;
+    }
+
+    .screenshot {
+        width: 100%;
+    }
+
+    .sitescreenshot {
+        width: 70%;
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .project-title {
+        font-size: 45px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .tech-box {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    .link:hover {
+        transform: scale(1.1);
+        transition: .7s;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 4px 4px #A0E7FB;
+        color: #A0E7FB;
+        font-size: 25px;
+        text-shadow: 0px 0px 5px #A0E7FB;
+    }
+}

@@ -10,6 +10,7 @@
 
 .landing-line-1 {
     color: white;
+    text-shadow: 0px 0px 8px #A0E7FB;
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.8);
     border-radius: 20%;
@@ -18,7 +19,9 @@
 }
 
 .landing-line-2 {
-    color: white;background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 0px 0px 8px #A0E7FB;
+    background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.8);
     border-radius: 20%;
     font-size: 35px;
@@ -26,6 +29,7 @@
 
 .landing-line-3 {
     color: white;
+    text-shadow: 0px 0px 8px #A0E7FB;
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.8);
     border-radius: 20%;

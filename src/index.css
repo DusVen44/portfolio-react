@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'Cormorant SC', 'Cormorant Garamond', 'Open Sans', 'Roboto', 'Oxygen',
@@ -7,7 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./images/blue-drops.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
+  height: 100%;
 }
 

@@ -1,12 +1,28 @@
 .projects-container {
-    border: 2px solid white;
-    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
+    padding-top: 120px;
 }
 
 .projects-title {
-    text-align: center;
     text-decoration: underline;
     font-size: 50px;
-    margin: 0;
+    text-shadow: 0px 0px 8px #A0E7FB;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.space {
+    margin: 70px;
+}
+
+@media screen and (min-width: 1000px) {
+    .projects-title {
+        font-size: 75px;
+    }
 }

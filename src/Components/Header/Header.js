@@ -7,7 +7,9 @@ export default function Header() {
         <div className="header">
 
             <div className="name">
-                <h1 className="top-name">Dustin <span className="name-bar">|</span> Venable</h1>
+                <Link to="/">
+                    <h1 className="top-name">Dustin <span className="name-bar">|</span> Venable</h1>
+                </Link>
             </div>
 
             <div className="nav-links">
