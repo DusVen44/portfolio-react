@@ -25,10 +25,11 @@ export default function HowToPlay() {
                 <div className="tech-and-buttons">
                     <div className="project-tech">
                         <div className="tech-box">React</div>
+                        <div className="tech-box">CSS</div>
                         <div className="tech-box">JSX</div>
                         <div className="tech-box">Express</div>
                         <div className="tech-box">Node</div>
-                        <div className="tech-box">MySQL</div>
+                        <div className="tech-box">PostgreSQL</div>
                     </div>
 
                     <div className="link-buttons">
