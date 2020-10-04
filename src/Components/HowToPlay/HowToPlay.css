@@ -126,12 +126,10 @@
     }
 
     .link:hover {
-        transform: scale(1.1);
-        transition: .7s;
+        transition: .5s;
         background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0px 0px 4px 4px #A0E7FB;
         color: #A0E7FB;
-        font-size: 25px;
         text-shadow: 0px 0px 5px #A0E7FB;
     }
 }
