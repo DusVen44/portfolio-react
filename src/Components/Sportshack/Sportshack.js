@@ -33,7 +33,7 @@ export default function HowToPlay() {
 
                     <div className="link-buttons">
                         <a  className="link" 
-                            href="https://sportshack-client.vercel.app/" 
+                            href="https://sportshack-front.vercel.app/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
