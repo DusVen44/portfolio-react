@@ -9,7 +9,7 @@ export default function Bio() {
                 I am a web developer who graduated from Bloc's Remote Web Developer Track program. 
                 My interest in tech stems from a love of making creative ideas
                 come to fruition. I enjoy chasing the feeling of satisfaction that's provided when 
-                the final product comes together. I'm excited to start working with a team of 
+                the final product comes together, and I'm excited to start working with a team of 
                 programmers and learn from the experts in this industry.
             </p>
             <p className="bio-text text2">
