@@ -21,7 +21,7 @@ export default function Bio() {
                 Otamatone (it's like a saxophone mixed with a bagpipe that looks like a Blobfish).
                 I can be found in the gym 4-6 days a week, and I have an extreme passion for exotic
                 sports cars. I also have an unsuccessful YouTube channel where I cover my favorite 
-                songs, and I'm extremely proud of acquiring my 69 subscribers. Check out my portfolio 
+                songs, and I'm extremely proud of acquiring my 70 subscribers. Check out my portfolio 
                 of recent projects, and feel free to contact me.
             </p>
 
