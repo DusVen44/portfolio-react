@@ -1,10 +1,14 @@
 import React from 'react';
 import './Bio.css';
+import headshot from '../../images/venny-headshot-small-nobg.png';
 
 export default function Bio() {
     return (
         <div className="bio-container">
             <h4 className="bio-title title">Bio</h4>
+            
+            
+
             <p className="bio-text text1">
                 I am a web developer who graduated from Bloc's Remote Web Developer Track program. 
                 My interest in tech stems from a love of making creative ideas
@@ -20,6 +24,10 @@ export default function Bio() {
                 songs, and I'm extremely proud of acquiring my 69 subscribers. Check out my portfolio 
                 of recent projects, and feel free to contact me.
             </p>
+
+            <div className="headshot-container">
+                <img src={headshot} alt="picture of Dustin" className="headshot"></img>
+            </div>
         </div>
     )
 }

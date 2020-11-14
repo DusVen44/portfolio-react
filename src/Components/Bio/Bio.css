@@ -17,6 +17,17 @@
     margin: 0;
 }
 
+.headshot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.headshot {
+    width: 50%;
+    height: auto;
+}
+
 .bio-text {
     font-family: 'Montserrat';
     width: 85%;
