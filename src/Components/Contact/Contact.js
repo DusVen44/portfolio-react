@@ -15,21 +15,16 @@ export default function Contact() {
                 </div>
 
                 <div className="contact-options">
-                    <h5 className="contact-options-title">~Contact Options~</h5>
-
                     <h5 className="email-link">
-                        <AiOutlineMail className="icon"/>
-                        <a href="mailto:djvenable@gmail.com">DJVenable@gmail.com</a>
+                        <a href="mailto:djvenable@gmail.com"><AiOutlineMail className="icon"/></a>
                     </h5>
 
                     <h5 className="github-link">
-                        <GoMarkGithub className="icon"/>
-                        <a href="https://github.com/DusVen44?tab=repositories" target="_blank" rel="noopener noreferrer">My Github</a>
+                        <a href="https://github.com/DusVen44?tab=repositories" target="_blank" rel="noopener noreferrer"><GoMarkGithub className="icon"/></a>
                     </h5>
 
                     <h5 className="linkedin">
-                        <AiFillLinkedin className="icon"/>
-                        <a href="https://www.linkedin.com/in/dustin-venable/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/dustin-venable/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="icon"/></a>
                     </h5>
                 </div>
             </div>

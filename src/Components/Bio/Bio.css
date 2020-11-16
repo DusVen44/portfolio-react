@@ -26,6 +26,7 @@
 
 .headshot {
     width: 70%;
+    max-width: 800px;
     height: 70%;
 }
 

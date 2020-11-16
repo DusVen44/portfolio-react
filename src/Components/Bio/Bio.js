@@ -7,8 +7,6 @@ export default function Bio() {
         <div className="bio-container">
             <h4 className="bio-title title">Bio</h4>
             
-            
-
             <p className="bio-text text1">
                 I am a web developer who graduated from Bloc's Remote Web Developer Track program. 
                 My interest in tech stems from a love of making creative ideas
