@@ -12,7 +12,7 @@ export default function Bio() {
                 My interest in tech stems from a love of making creative ideas
                 come to fruition. I enjoy chasing the feeling of satisfaction that's provided when 
                 the final product comes together, and I'm excited to start working with a team of 
-                programmers and learn from the experts in this industry.
+                programmers to not only showcase my skills, but also learn from the experts in this industry.
             </p>
             <p className="bio-text text2">
                 In my free time, I'm usually playing guitar, drums, piano, bass guitar, and the 
