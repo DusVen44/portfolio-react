@@ -8,7 +8,8 @@ export default function Bio() {
             <h4 className="bio-title title">Bio</h4>
             
             <p className="bio-text text1">
-                I am a web developer who graduated from Bloc's Remote Web Developer Track program. 
+                I am a Cloud Engineer & Full-Stack Web Developer who graduated from Bloc's Remote Web Developer Track program. 
+                I have an AWS Solutions Architect - Associate certification.
                 My interest in tech stems from a love of making creative ideas
                 come to fruition. I enjoy chasing the feeling of satisfaction that's provided when 
                 the final product comes together, and I'm excited to start working with a team of 

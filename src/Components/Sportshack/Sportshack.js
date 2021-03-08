@@ -29,6 +29,7 @@ export default function HowToPlay() {
                         <div className="tech-box">Express</div>
                         <div className="tech-box">Node</div>
                         <div className="tech-box">PostgreSQL</div>
+                        <div className="tech-box">AWS Amplify</div>
                     </div>
 
                     <div className="link-buttons">
