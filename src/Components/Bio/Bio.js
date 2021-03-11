@@ -1,6 +1,7 @@
 import React from 'react';
 import './Bio.css';
 import headshot from '../../images/venny-headshot-small-nobg.png';
+import cert from '../../images/AWS-SolArchitect-Associate-2020.png';
 
 export default function Bio() {
     return (
@@ -25,6 +26,7 @@ export default function Bio() {
             </p>
 
             <div className="headshot-container">
+                <img src={cert} alt="AWS Certification" className="certification"></img>
                 <img src={headshot} alt="picture of Dustin" className="headshot"></img>
             </div>
         </div>

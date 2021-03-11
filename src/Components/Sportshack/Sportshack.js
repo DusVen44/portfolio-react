@@ -15,9 +15,10 @@ export default function HowToPlay() {
                 <div className="project-description">
                     <p className="description">
                         Sportshack Supplement Depot is a brick & mortar business in Lafayette, LA. 
-                        This full stack project was done as a redesign of the original site with the 
+                        This project was done as a redesign of the original site with the 
                         goal of creating a more user-friendly and aesthetically pleasing experience. 
-                        Node, Express, and SQL are used for the API and React is handling the front-end.
+                        Node, Express, and SQL are used for the API and React is handling the front-end. 
+                        The app is hosted by AWS Amplify and AWS Route53.
                     </p>
                 </div>
 
@@ -30,11 +31,12 @@ export default function HowToPlay() {
                         <div className="tech-box">Node</div>
                         <div className="tech-box">PostgreSQL</div>
                         <div className="tech-box">AWS Amplify</div>
+                        <div className="tech-box">AWS Route53</div>
                     </div>
 
                     <div className="link-buttons">
                         <a  className="link" 
-                            href="https://sportshack-front.vercel.app/" 
+                            href="https://www.sportshacksupplementdepot.com/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >

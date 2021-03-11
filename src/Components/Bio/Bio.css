@@ -24,6 +24,14 @@
     margin: 0;
 }
 
+.certification {
+    width: 25%;
+    height: 25%;
+    max-width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
 .headshot {
     width: 70%;
     max-width: 800px;
