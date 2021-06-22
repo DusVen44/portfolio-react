@@ -17,7 +17,7 @@ export default function HowToPlay() {
                         This app uses 3 APIs. I play multiple instruments, and learning new songs 
                         can be a major hassle. I created this app so users can have a home for the 
                         notation, lyrics, and video tutorials for their favorite songs. Each search 
-                        will sheet music (Songsterr API), lyrics (Genius API), and video tutorials 
+                        will yield sheet music (Songsterr API), lyrics (Genius API), and video tutorials 
                         (Google/YouTube API).
                     </p>
                 </div>

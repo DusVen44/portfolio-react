@@ -20,6 +20,8 @@
     font-size: 30px;
     text-decoration: underline;
     text-shadow: 0px 0px 4px #A0E7FB;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0);
 }
 
 .description {

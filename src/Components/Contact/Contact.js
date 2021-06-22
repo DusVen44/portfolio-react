@@ -11,7 +11,8 @@ export default function Contact() {
             <div className="contact-info-container">
                 <div className="name-career">
                     <h4 className="contact-name">Dustin Venable</h4>
-                    <h4 className="contact-career">Cloud Engineer & Web Developer</h4>
+                    <h4 className="contact-career">Cloud Engineer</h4>
+                    <h4 className="contact-career">Web Developer</h4>
                 </div>
 
                 <div className="contact-options">
