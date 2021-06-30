@@ -1,7 +1,8 @@
 import React from 'react';
 import './Bio.css';
 import headshot from '../../images/venny-headshot-small-nobg.png';
-import cert from '../../images/AWS-SolArchitect-Associate-2020.png';
+import solutionsarchitectcert from '../../images/AWS-SolArchitect-Associate-2020.png';
+import syscert from '../../images/AWS-SysOpAdmin-Associate-2020.png';
 
 export default function Bio() {
     return (
@@ -10,7 +11,7 @@ export default function Bio() {
             
             <p className="bio-text text1">
                 I am a Cloud Engineer & Full-Stack Web Developer who graduated from Bloc's Remote Web Developer Track program. 
-                I have an AWS Solutions Architect - Associate certification.
+                I have the AWS Solutions Architect - Associate and the AWS SysOps Administrator - Associate certifications.
                 My interest in tech stems from a love of making creative ideas
                 come to fruition. I enjoy chasing the feeling of satisfaction that's provided when 
                 the final product comes together, and I love working with a team of 
@@ -26,7 +27,13 @@ export default function Bio() {
             </p>
 
             <div className="headshot-container">
-                <img src={cert} alt="AWS Certification" className="certification"></img>
+
+                <div className="certs-container">
+                    <img src={solutionsarchitectcert} alt="AWS Certification" className="architectcertification"></img>
+                    <img src={syscert} alt="AWS Certification" className="syscert"></img>
+                </div>
+
+
                 <img src={headshot} alt="picture of Dustin" className="headshot"></img>
             </div>
         </div>

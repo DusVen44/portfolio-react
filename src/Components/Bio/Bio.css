@@ -24,12 +24,21 @@
     margin: 0;
 }
 
-.certification {
-    width: 25%;
-    height: 25%;
+.certs-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.architectcertification {
+    width: 100%;
     max-width: 200px;
     margin-top: 40px;
-    margin-left: 40px;
+}
+
+.syscert {
+    width: 100%;
+    max-width: 200px;
 }
 
 .headshot {
