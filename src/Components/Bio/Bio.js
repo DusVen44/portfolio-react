@@ -3,6 +3,7 @@ import './Bio.css';
 import headshot from '../../images/venny-headshot-small-nobg.png';
 import solutionsarchitectcert from '../../images/AWS-SolArchitect-Associate-2020.png';
 import syscert from '../../images/AWS-SysOpAdmin-Associate-2020.png';
+import devcert from '../../images/AWS-Developer-Associate.png';
 
 export default function Bio() {
     return (
@@ -31,6 +32,7 @@ export default function Bio() {
                 <div className="certs-container">
                     <img src={solutionsarchitectcert} alt="AWS Certification" className="architectcertification"></img>
                     <img src={syscert} alt="AWS Certification" className="syscert"></img>
+                    <img src={devcert} alt="AWS Certification" className="devcert"></img>
                 </div>
 
 
