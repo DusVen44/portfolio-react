@@ -46,8 +46,13 @@
     max-width: 200px;
 }
 
+.ckacert {
+    width: 100%;
+    max-width: 200px; 
+}
+
 .headshot {
-    width: 70%;
+    width: 80%;
     max-width: 800px;
     height: 70%;
 }

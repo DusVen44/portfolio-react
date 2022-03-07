@@ -4,6 +4,7 @@ import headshot from '../../images/venny-headshot-small-nobg.png';
 import solutionsarchitectcert from '../../images/AWS-SolArchitect-Associate-2020.png';
 import syscert from '../../images/AWS-SysOpAdmin-Associate-2020.png';
 import devcert from '../../images/AWS-Developer-Associate.png';
+import ckacert from '../../images/cka-certified-kubernetes-administrator.png';
 
 export default function Bio() {
     return (
@@ -12,7 +13,7 @@ export default function Bio() {
             
             <p className="bio-text text1">
                 I am a Cloud Engineer & Full-Stack Web Developer who graduated from Thinkful's Remote Web Developer Track program. 
-                I have the 3 AWS associate-level certifications (see below).
+                I have the 3 AWS associate-level certifications along with the CKA certification (see below).
                 My interest in tech stems from a love of making creative ideas
                 come to fruition. I enjoy chasing the feeling of satisfaction that's provided when 
                 the final product comes together, and I love working with a team of 
@@ -33,6 +34,7 @@ export default function Bio() {
                     <img src={solutionsarchitectcert} alt="AWS Certification" className="architectcertification"></img>
                     <img src={syscert} alt="AWS Certification" className="syscert"></img>
                     <img src={devcert} alt="AWS Certification" className="devcert"></img>
+                    <img src={ckacert} alt="CKA Certification" className="ckacert"></img>
                 </div>
 
 
